@@ -3,7 +3,7 @@ from thread.SecondPage import *
 import baiduQueue.baiduQueue
 
 if __name__ == "__main__":
-    addTopUrl("app", "大数据", ['1609430400', '1627660800'])
+    addTopUrl("农行", "大数据", [1601481600, 1609344000])
     top = []
     baiduQueue.flag = False
     for i in range(1):

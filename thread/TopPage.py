@@ -16,7 +16,7 @@ class TopPage(threading.Thread):
             if q_top.empty():
                 break
             try:
-                time.sleep(1)
+                # time.sleep(1)
                 bank,keyword,page,seasonTime = q_top.get(block=False)
                 response = getTopRequest(bank,keyword,page,seasonTime)
                 print(response)
@@ -32,7 +32,8 @@ class TopPage(threading.Thread):
                     title = ''.join(item.xpath('.//text()'))
                     href = item.xpath('./@href')[0]
                     addSecondUrl(bank,keyword,title,href,seasonTime)
-                    time.sleep(3)
+                    # time.sleep(3)
+                time.sleep(3)
             except Exception:
                 print("TopPageError")
                 continue

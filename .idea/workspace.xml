@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="96e9186f-1ff8-4376-8d0c-2d6404851816" name="Default Changelist" comment="" />
+    <list default="true" id="96e9186f-1ff8-4376-8d0c-2d6404851816" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baiduRequest/baiduRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/baiduRequest/baiduRequest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baiduSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/baiduSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/SecondPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread/SecondPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/TopPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread/TopPage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xUbVnRgnlBoU7wAlIgvqNHWKOe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Python.baiduSpider">
     <configuration name="TopPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -86,9 +117,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="baiduSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service/service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.baiduSpider" />
+        <item itemvalue="Python.service" />
         <item itemvalue="Python.baiduRequest" />
         <item itemvalue="Python.TopPage" />
       </list>
@@ -105,42 +158,62 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1630460751182">
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1630552847543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751182" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1630460751182">
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630552847543" />
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630548867071" />
+    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1630552847542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751182" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1630460751181">
+    <state width="1899" height="283" key="GridCell.Tab.0.center/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630552847542" />
+    <state width="1899" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630548867070" />
+    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1630552847542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751181" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1630460751182">
+    <state width="1899" height="283" key="GridCell.Tab.0.left/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630552847542" />
+    <state width="1899" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630548867069" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1630552847542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751182" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1630460751183">
+    <state width="1899" height="283" key="GridCell.Tab.0.right/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630552847542" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630548867070" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1630548014301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751183" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1630460751183">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630548014301" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1630548014300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.center/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751183" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1630460751182">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630548014300" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1630548014300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.left/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751182" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1630460751183">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630548014300" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1630548014301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460751183" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630460288052">
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630548014301" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630548795077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.4.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630460288052" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630548795077" />
   </component>
 </project>

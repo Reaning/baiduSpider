@@ -40,7 +40,7 @@ def getTopRequest(bank,keyword,page,seasonTime):
         ('rsv_idx', '2'),
         ('rsv_pq', 'd09ea91a000533ad'),
         ('rsv_t', 'a741enhrt8jcViHd/8Q+gb0DnCzjIbctyKmpOkRk6BibYwnyQXvHFSqrZtTKeUHQlE4s'),
-        ('gpc','stf%3D'+seasonTime[0]+'%2C'+seasonTime[1]+'%7Cstftype%3D2')
+        ('gpc','stf%3D'+str(seasonTime[0])+'%2C'+str(seasonTime[1])+'%7Cstftype%3D2')
     )
     headers['User-Agent'] = random.choice(ua)
     return requests.get('https://www.baidu.com/s', headers=headers, params=params)
@@ -57,31 +57,20 @@ def getUrl(bank,keyword,title,href: str):
         while retry_count > 0:
             try:
                 r = requests.get(url=href, headers=headers, timeout=3,allow_redirects=False)
-                print(href)
-                print(r.status_code)
                 if r.status_code == 302 and 'Location' in r.headers.keys():
                     url = r.headers['Location']
-                    print(url)
                     r = requests.get(url=url,headers = headers,timeout = 3)
                     r.encoding = 'utf-8'
-                    print(r)
                     pattern = re.compile(r'[^\u4e00-\u9fa5]')
-                    # print(r.text)
                     chinese = re.sub(pattern, '', r.text)  # 替换字符串
-                    # print(chinese)
                     n_1 = len(re.findall(bank, title))
                     n_1 += len(re.findall(bank,chinese))
-                    print(n_1)
                     n_2 = len(re.findall(keyword, chinese))
-                    print(n_2)
-                    print(str(n_1)+' '+str(n_2))
                     flagc = False
-                    # return url,flagc
                     if n_1 > 0 and n_2 > 0:
                         flagc = True
                     return url, flagc
             except Exception:
-                # print(Exception)
                 retry_count -= 1
         if try_count == 0: return '', False
 
